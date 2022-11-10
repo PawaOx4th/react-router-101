@@ -20,6 +20,10 @@ const router = createBrowserRouter([
     element: <Root />,
     children: [
       {
+        path: "home",
+        element: <Home />
+      },
+      {
         path: "team",
         element: <Team />,
         children: [
